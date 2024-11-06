@@ -20,15 +20,18 @@ def q2():
 
 def q3(): 
   #Write Assignment code here
-  word = "Input a word that is at least 5 letters long"
+  word = input("Input a word that is at least 5 letters long: ")
   print("Input a word that is at least 5 letters long")
+
 def q4(): 
   #Write Assignment code here
-  word = "Input a word"
-
+   word = input("Input a word")
+    print(word.index("o"))
+    
 def q5(): 
   #Write Assignment code here
-
+   user = input("Input a word: ")
+   print(len(user))
 
 
 #Do not alter the following code
